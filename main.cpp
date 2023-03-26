@@ -145,10 +145,7 @@ public:
  {
  for(int i = 0; i < (int)bookings.size(); i++)
  {
- cout<<"| "<<left<<setw(10)<<bookings[i].getBookingID()<<" | "<<left<<setw(11)<<bookings[i].getCustomerID()<<" | "<<left<<setw(4)<<bookings[i].getPickUp()<<" | "<<left<<setw(4)<<bookings[i].getDroupAt()<<" |
-"<<left<<setw(9)<<bookings[i].getPickTime()<<" |
-"<<left<<setw(10)<<bookings[i].getDroupTime()<<" |
-"<<left<<setw(6)<<bookings[i].getAmount()<<" |\n";
+ cout<<"| "<<left<<setw(10)<<bookings[i].getBookingID()<<" | "<<left<<setw(11)<<bookings[i].getCustomerID()<<" | "<<left<<setw(4)<<bookings[i].getPickUp()<<" | "<<left<<setw(4)<<bookings[i].getDroupAt()<<" | "<<left<<setw(9)<<bookings[i].getPickTime()<<" | "<<left<<setw(10)<<bookings[i].getDroupTime()<<" | "<<left<<setw(6)<<bookings[i].getAmount()<<" |\n";
  cout<<"----------------------------------------------------------------------------\n";
  }
  }
@@ -264,12 +261,9 @@ int main()
  {
  if(taxi[i].getTotalEarnings() > 0)
  {
- cout<<"\nTAXI NO : TAXI-"<<taxi[i].getTaxiNumber()<<" TOTAL EARNINGS :
-Rs."<<taxi[i].getTotalEarnings()<<endl<<endl;
+ cout<<"\nTAXI NO : TAXI-"<<taxi[i].getTaxiNumber()<<" TOTAL EARNINGS : Rs."<<taxi[i].getTotalEarnings()<<endl<<endl;
  cout<<"----------------------------------------------------------------------------\n";
- cout<<"| "<<left<<setw(10)<<"BOOKING ID"<<" | "<<left<<setw(11)<<"CUSTOMER
-ID"<<" | "<<left<<setw(4)<<"FROM"<<" | "<<left<<setw(4)<<"TO"<<" | "<<left<<setw(9)<<"PICK
-TIME"<<" | "<<left<<setw(10)<<"DROUP TIME"<<" | "<<left<<setw(6)<<"AMOUNT"<<" |\n";
+ cout<<"| "<<left<<setw(10)<<"BOOKING ID"<<" | "<<left<<setw(11)<<"CUSTOMER ID"<<" | "<<left<<setw(4)<<"FROM"<<" | "<<left<<setw(4)<<"TO"<<" | "<<left<<setw(9)<<"PICK TIME"<<" | "<<left<<setw(10)<<"DROUP TIME"<<" | "<<left<<setw(6)<<"AMOUNT"<<" |\n";
  cout<<"----------------------------------------------------------------------------\n";
  taxi[i].displayuBookings();
  }

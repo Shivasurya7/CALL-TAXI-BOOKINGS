@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1679841172 source:d:\c++\call taxi bookings\main.cpp
+	<iostream>
+	<vector>
+	<iomanip>
+
