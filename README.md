@@ -23,10 +23,12 @@ Drop Point: B
 Pickup Time: 9
 
 Output 1:
+
 Taxi can be allotted.
 Taxi-1 is allotted
 
 Input 2:
+
 Customer ID: 2
 Pickup Point: B
 Drop Point: D
@@ -48,8 +50,8 @@ Taxi-1 is allotted
 2) Display the Taxi details
 Taxi No:    Total Earnings:
 BookingID    CustomerID    From    To    PickupTime    DropTime    Amount
-   
 Output:
+
 Taxi-1    Total Earnings: Rs. 400
 
 1     1     A    B    9    10    200
